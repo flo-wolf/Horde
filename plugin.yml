@@ -1,0 +1,27 @@
+name: Horde
+version: 0.0.1
+main: me.badeye.plugins.horde.main
+author: Badeye
+soft-depend: [PermissionsEx]
+depend: [ProtocolLib, InSigns]
+commands:
+   fix:
+      description: Fixes your legs and seals your wounds.
+      usage: /<command>
+      permisison-message: You don't have the permission to use this.
+   equip:
+      description: Equip yourself with a kit
+      usage: /<command>
+      permisison-message: You don't have the permission to use this.
+   money:
+      description: Add and set money of a players wallet
+      usage: /<command>
+      permisison-message: You don't have the permission to use this.
+   rs:
+      description: Teleport yourself to a random location!
+      usage: /<command>
+      permisison-message: You don't have the permission to use this.
+   lobby:
+      description: Back to the lobby!
+      usage: /<command>
+      permisison-message: You don't have the permission to use this.
